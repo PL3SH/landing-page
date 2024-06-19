@@ -1,0 +1,138 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+/* Contenedor del encabezado */
+.header-container {
+    display: flex;
+    border-bottom: 2px solid #003366;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #003366;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+/* Logo */
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+/* Contenedor del menú */
+.header-container .menu-container {
+    display: flex;
+    gap: 10px;
+}
+
+/* Logo y título */
+.logo-title {
+    display: flex;
+    align-items: center;
+}
+
+/* Contenido principal */
+.first-content {
+    border: 2px solid #66CCFF;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    gap: 40px;
+}
+
+.image-content {
+    width: 500px;
+    height: 300px;
+}
+
+.text-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+/* Imágenes */
+.images {
+    width: 100px;
+    height: 100px;
+}
+
+.group-images {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cita inspiradora */
+#inspiring-quote {
+    
+    padding: 20px;
+    border: 2px solid #02abff;
+    background-color: #FFFFFF;
+    color: #333333;
+    text-align: justify;
+}
+
+/* Llamada a la acción */
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #F2F2F2;
+}
+
+#rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #66CCFF;
+    border: 2px solid #003366;
+    border-radius: 10px;
+    padding: 40px;
+    width: 80%;
+    max-width: 600px;
+}
+
+#rectangle p {
+    margin: 0;
+    margin-bottom: 20px; /* Añadido para espacio entre el texto y el botón */
+    color: #003366;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #003366;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #002244;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #003366;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+}
